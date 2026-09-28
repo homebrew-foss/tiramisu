@@ -22,7 +22,7 @@ The easiest way to setup git and ssh is to use the official `gh-cli` app
 2. Install the cli app from: [here](http://github.com/cli/cli#installation)
 3. Open your terminal and run: `gh auth login` to login to your GitHub account
 4. Follow the prompts. Select `SSH` as the preferred option and let it generate an SSH key.
-6. Visit: https://github.com/homebrew-ec-foss/tiramisu/ and fork this repo
+6. Visit: https://github.com/homebrew-foss/tiramisu/ and fork this repo
 5. To test, clone the forked repo using `gh repo clone yourusername/tiramisu`
 
 ---

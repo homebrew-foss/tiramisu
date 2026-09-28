@@ -1,5 +1,5 @@
 // Load firesides from JSON file
-const FIRESIDES_JSON_URL = 'https://raw.githubusercontent.com/homebrew-ec-foss/firesides/refs/heads/main/firesides.json';
+const FIRESIDES_JSON_URL = 'https://raw.githubusercontent.com/homebrew-foss/firesides/refs/heads/main/firesides.json';
 // Format date to a readable format
 function formatDate(dateString) {
     const date = new Date(dateString);
@@ -179,7 +179,7 @@ async function fetchFiresides() {
         contentDiv.innerHTML = `
             <div class="error">
                 <p>Failed to load firesides: ${error.message}</p>
-                <p>You can view them directly on <a href="https://github.com/homebrew-ec-foss/tiramisu/discussions/categories/firesides" target="_blank">
+                <p>You can view them directly on <a href="https://github.com/homebrew-foss/tiramisu/discussions/categories/firesides" target="_blank">
                     GitHub →
                 </a></p>
             </div>

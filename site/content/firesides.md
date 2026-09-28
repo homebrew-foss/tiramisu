@@ -16,8 +16,8 @@ Visit: [https://hsp-ec.xyz/cfp-firesides](https://hsp-ec.xyz/cfp-firesides)
 
 > Alternatively, drop your proposals here as comments for us to make note of and triage them
 
-<div id="proposals"">
-  <script src="https://giscus.app/client.js" data-repo="homebrew-ec-foss/tiramisu" data-repo-id="R_kgDOMNKKDw"
+<div id="proposals">
+  <script src="https://giscus.app/client.js" data-repo="homebrew-foss/tiramisu" data-repo-id="R_kgDOMNKKDw"
       data-category="Firesides" data-category-id="DIC_kwDOMNKKD84Cl_Wo" data-mapping="pathname"
       data-strict="0"
       data-reactions-enabled="0"
