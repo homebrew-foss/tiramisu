@@ -171,8 +171,8 @@
     <div class="ticker-wrapper">
       <div class="ticker" id="ticker">
         <span id="prev">21'</span>
-        <span id="current" class="current">21'</span>
-        <span id="next">22'</span>
+        <span id="current" class="current">22'</span>
+        <span id="next">23'</span>
       </div>
     </div>
   </div>
@@ -215,7 +215,7 @@
     }
 
     function updateTicker() {
-      if (currentNumber >= 26) {
+      if (currentNumber >= 27) {
         fadeOutAudio(tickSound);
         applyButton.classList.add('highlight');
         if (tickerInterval !== null) {
