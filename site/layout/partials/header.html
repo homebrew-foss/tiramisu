@@ -1,7 +1,7 @@
 {{define "header"}}
 <!-- If the template for a particular url does not exist(posts.html), setting it to the specific page template data -->
-{{ $PageData := index .DeepDataMerge.Templates .PageURL }} {{if eq $PageData nil
-}} {{ $PageData = .TemplateData }} {{end}}
+{{ $PageData := index .DeepDataMerge.Pages .PageURL }} {{if eq $PageData nil
+}} {{ $PageData = .PageData }} {{end}}
 
 <header>
     <nav>
@@ -12,7 +12,7 @@
                 src="/static/images/hsp-spinner.svg"
         /></a>
         <div id="links" class="links">
-            {{range $index_no, $map := .DeepDataMerge.LayoutConfig.Navbar}}
+            {{range $index_no, $map := .DeepDataMerge.Config.Navbar}}
             {{range $key, $value := $map }}
             <a class="navitem" href="{{ $value }}">{{ $key }}</a>
             {{ end }} {{end}}

@@ -1,5 +1,5 @@
 {{ define "post"}}
-{{$PageData := index .DeepDataMerge.Templates .PageURL}}
+{{$PageData := index .DeepDataMerge.Pages .PageURL}}
 {{ template "head_post" .}}
 
 <body>

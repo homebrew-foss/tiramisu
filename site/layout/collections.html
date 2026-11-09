@@ -1,5 +1,5 @@
 {{ define "all-collections"}}
-{{$PageData := .TemplateData}}
+{{$PageData := .PageData}}
 {{ template "head_regular" .}}
 
 <body>
@@ -9,7 +9,7 @@
             <section class="posts">
                 <div class="all-tags">
                     {{range .CollectionNames}}
-                    <a href="/collections/{{.}}.html">{{.}}</a>
+                    <a href="/{{.}}/">{{.}}</a>
                     {{end}}
                 </div>
             </section>
